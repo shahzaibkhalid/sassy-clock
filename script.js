@@ -22,7 +22,7 @@ function syncAnalogClock(hour, mins, sec) {
 }
 
 /**
- * It continually sync the digital clock.
+ * It continually sync the digital 24 hours clock.
  * 
  * @param {any} hour - current hour of time
  * @param {any} mins - current minute of time 
@@ -32,6 +32,13 @@ function syncDigitalClock24Hours(hour, mins, sec) {
     digitalClock24Hours.innerHTML = `${hour}:${mins}:${sec}`;
 }
 
+/**
+ * It continually sync the digital 12 hours clock.
+ * 
+ * @param {any} hour - current hour of time
+ * @param {any} mins - current minute of time 
+ * @param {any} sec  - current second of time
+ */
 function syncDigitalClock12Hours(hour, mins, sec) {
     let ampm = hour >= 12 ? 'PM' : 'AM';
     hour = hour % 12;
@@ -41,7 +48,8 @@ function syncDigitalClock12Hours(hour, mins, sec) {
 }
 
 /**
- * It is called every time through 'setInterval' function and updates time.
+ * It is called every time through 'setInterval' function and updates analog, digital 24 hours and
+ * digital 12 hours format.
  */
 function updateTime() {
     let now = new Date();
