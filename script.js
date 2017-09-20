@@ -2,7 +2,7 @@ function syncDate() {
     const hourHand = document.getElementById('hour-hand');
     const minHand = document.getElementById('minute-hand');
     const secHand = document.getElementById('second-hand');
-    const digitalClock = document.querySelector('.digital-clock');
+    const digitalClock = document.querySelector('.digital-clock-time');
 
     let now = new Date();
     let hour = now.getHours();
