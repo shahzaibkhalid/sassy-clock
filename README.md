@@ -1,10 +1,10 @@
 # Sassy Clock
 ### Clock experience, at its best!
 
-A minimal yet beautiful, all in one clock expereince, all using HTML, CSS &amp; JavaScript.
+A minimal yet beautiful, all in one clock experience, all using HTML, CSS &amp; JavaScript.
 
 ## Detail
-Sassy Clock provides a minimal, beautiful and personal clock expereince. It displays time, both in analog and digital formats. Digital format includes both, 24 hours and 12 hours format.
+Sassy Clock provides a minimal, beautiful and personal clock experience. It displays time, both in analog and digital formats. Digital format includes both, 24 hours and 12 hours format.
 
 ## Design
 This is how the design looks like:
