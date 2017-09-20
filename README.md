@@ -8,9 +8,9 @@ Sassy Clock provides a minimal, beautiful and personal clock expereince. It disp
 
 ## Design
 This is how the design looks like:
-![electronic drum kit](./images/electronic-drum-kit.png)
+![electronic drum kit](./images/sassy-clock.png)
 ## Demo
-You can watch a demo by clicking [here](https://shahzaibkhalid.github.io/electronic-drum-kit/)
+You can watch a demo by clicking [here](https://shahzaibkhalid.github.io/sassy-clock/)
 
 # License
 Sassy Clock is licensed under the [MIT License](https://github.com/shahzaibkhalid/sassy-clock/blob/master/LICENSE.txt).
