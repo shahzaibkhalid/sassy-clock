@@ -1,0 +1,27 @@
+{
+  "name": "sassy-clock",
+  "version": "1.0.0",
+  "description": "A minimal yet beautiful, all in one clock experience, all using HTML, CSS & JavaScript. ",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahzaibkhalid/sassy-clock.git"
+  },
+  "keywords": [
+    "clock",
+    "time",
+    "analog",
+    "clock",
+    "digital",
+    "clock"
+  ],
+  "author": "Shahzaib Khalid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shahzaibkhalid/sassy-clock/issues"
+  },
+  "homepage": "https://github.com/shahzaibkhalid/sassy-clock#readme"
+}
