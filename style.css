@@ -52,12 +52,12 @@
 }
 
 /* styling digital clock header */
-.digital-clock {
+.digital-clock-24-hour {
     text-align: center;
 }
 
 /* styling & positioning digital clock */
-.digital-clock-time {
+.digital-clock-time-24-hour {
     color: rosybrown;
     font-size: 30px;
     font-family: Calibri, sans-serif;

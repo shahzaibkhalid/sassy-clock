@@ -1,7 +1,7 @@
 const hourHand = document.getElementById('hour-hand');
 const minHand = document.getElementById('minute-hand');
 const secHand = document.getElementById('second-hand');
-const digitalClock = document.querySelector('.digital-clock-time');
+const digitalClock = document.querySelector('.digital-clock-time-24-hour');
 
 /**
  * It calculates the hours, minutes and seconds in terms of degrees and continually sync the analog clock.
