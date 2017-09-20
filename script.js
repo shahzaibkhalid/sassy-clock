@@ -1,7 +1,8 @@
 const hourHand = document.getElementById('hour-hand');
 const minHand = document.getElementById('minute-hand');
 const secHand = document.getElementById('second-hand');
-const digitalClock = document.querySelector('.digital-clock-time-24-hour');
+const digitalClock24Hours = document.querySelector('.digital-clock-time-24-hour');
+const digitalClock12Hours = document.querySelector('.digital-clock-time-12-hour');
 
 /**
  * It calculates the hours, minutes and seconds in terms of degrees and continually sync the analog clock.
@@ -27,13 +28,20 @@ function syncAnalogClock(hour, mins, sec) {
  * @param {any} mins - current minute of time 
  * @param {any} sec  - current second of time
  */
-function syncDigitalClock(hour, mins, sec) {
-    digitalClock.innerHTML = `${hour}:${mins}:${sec}`;
+function syncDigitalClock24Hours(hour, mins, sec) {
+    digitalClock24Hours.innerHTML = `${hour}:${mins}:${sec}`;
+}
+
+function syncDigitalClock12Hours(hour, mins, sec) {
+    let ampm = hour >= 12 ? 'PM' : 'AM';
+    hour = hour % 12;
+    hour = hour ? hour : 12;
+    mins = mins < 10 ? '0'+ mins : mins;
+    digitalClock12Hours.innerHTML = `${hour}:${mins}:${sec} ${ampm}`;
 }
 
 /**
  * It is called every time through 'setInterval' function and updates time.
- * 
  */
 function updateTime() {
     let now = new Date();
@@ -42,7 +50,8 @@ function updateTime() {
     let sec = now.getSeconds();
     
     syncAnalogClock(hour, mins, sec);
-    syncDigitalClock(hour, mins, sec);
+    syncDigitalClock24Hours(hour, mins, sec);
+    syncDigitalClock12Hours(hour, mins, sec);
 }
 
 setInterval(updateTime, 1000);
