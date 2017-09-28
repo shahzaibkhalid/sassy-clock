@@ -8,7 +8,9 @@ Sassy Clock provides a minimal, beautiful and personal clock experience. It disp
 
 ## Design
 This is how the design looks like:
-![electronic drum kit](./images/sassy-clock.png)
+![electronic drum kit](./images/sassy-clock-1.png)
+![electronic drum kit](./images/sassy-clock-2.png)
+![electronic drum kit](./images/sassy-clock-3.png)
 ## Demo
 You can watch a demo by clicking [here](https://shahzaibkhalid.github.io/sassy-clock/)
 
