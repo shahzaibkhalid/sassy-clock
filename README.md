@@ -15,7 +15,7 @@ This is how the design looks like:
 ## Demo
 You can watch a demo by clicking [here](https://shahzaibkhalid.github.io/sassy-clock/)
 
-# License
+## License
 Sassy Clock is licensed under the [MIT License](https://github.com/shahzaibkhalid/sassy-clock/blob/master/LICENSE.txt).
 
 Copyright (c) 2017 Shahzaib Khalid
